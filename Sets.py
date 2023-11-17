@@ -27,6 +27,34 @@ Note: If the item to remove does not exist, discard() will NOT raise an error.
 You can also use the pop() method to remove an item, but this method will remove a random item, 
 so you cannot be sure what item that gets removed.
 he return value of the pop() method is the removed item.
+
+The clear() method empties the set
+The del keyword will delete the set completely:
+
+Join Two Sets
+There are several ways to join two or more sets in Python.
+
+You can use the union() method that returns a new set containing all items from both sets, 
+or the update() method that inserts all the items from one set into another:
+
+
+The intersection_update() method will keep only the items that are present in both sets.
+
+The intersection() method will return a new set, that only contains the items that are present in both sets.
+
+
+Keep All, But NOT the Duplicates
+The symmetric_difference_update() method will keep only the elements that are NOT present in both sets.
+
+
+
+
+The symmetric_difference() method will return a new set, that contains only the elements 
+that are NOT present in both sets.
+
+
+
+
 '''
 ##thisset = {"apple", "banana", "cherry", "apple", 1, 2}
 

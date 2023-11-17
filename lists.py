@@ -165,6 +165,7 @@ thislist = ["apple", "canana", "Bherry","Watermelon","kawi"]
 # print(fruits[-1])
 # thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 # print(thislist[-4:-1])
-thislist = ["apple", "banana", "cherry"]
-thislist[1:2] = ["blackcurrant", "watermelon"]
-print(thislist)
+# thislist = ["apple", "banana", "cherry"]
+# thislist[1:2] = ["blackcurrant", "watermelon"]
+# print(thislist)
+##ttry using aestrix in lists

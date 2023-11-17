@@ -149,6 +149,8 @@ Example
 #     print(x[i])
 #     i = i + 1
 
+
+## same way we can use count and index in tuples
 fruits = ("npple", "banana", "cherry", "apple", "apple")
 count_of_index = fruits.index("apple")
 print(f"{count_of_index}")
