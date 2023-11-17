@@ -1,0 +1,5 @@
+print(uday)
+# print(uday["age"])
+# print(len(uday))
+# print(type(uday))
+# print(x)
