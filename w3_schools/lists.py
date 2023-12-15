@@ -169,3 +169,5 @@ thislist = ["apple", "canana", "Bherry","Watermelon","kawi"]
 # thislist[1:2] = ["blackcurrant", "watermelon"]
 # print(thislist)
 ##ttry using aestrix in lists
+x = 5%10
+print(x)

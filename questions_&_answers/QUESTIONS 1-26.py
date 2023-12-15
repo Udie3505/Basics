@@ -158,3 +158,52 @@
 # # print(x == y or x > y) 
 # x = 25
 # print(x % 2 == 0)
+'''q23 Write a Python program that takes an integer input and prints
+whether it's positive, negative. (Consider 0 as positive)'''
+# num = float(input("enter a number: "))
+
+# if num>= 0:
+#     print("positive")
+# else:
+#     print("negative")
+
+'''q24Write a program that takes a character as input and prints whether
+it's a vowel or a consonant
+'''
+# char = input("enter a letter from a to z: ")
+
+# if char == "a" or "e" or "i" or "o" or "u":
+#     print("vovel")
+# else:
+#     print("consonant")
+'''q25Write a program that takes two numbers as input and checks if the
+first number is divisible by the second.
+'''
+# num1 = int(input("enter num1: "))
+# num2 = int(input("enter num2: "))
+
+# if num1%num2 == 0:
+#     print("divisible")
+# else:
+#     print("not divisible")
+'''Q26. A student will not be allowed to sit in exam if his/her attendance is
+less than 75%.
+Take following input from user
+
+Number of classes held
+Number of classes attended.
+1. Print percentage of class attended
+2. Print Is student is allowed to sit in exam or not.'''
+
+# total_no_of_classes = int(input("enter the number of classes held: "))
+# total_no_of_classes_attended = int(input("enter the number of classes attended: "))
+# a = total_no_of_classes
+# b = total_no_of_classes_attended
+# percentage_of_classes_attended = b/a * 100
+# c = percentage_of_classes_attended
+# if c >= 75:
+#     print("student is allowed to sit in the exam")
+# else:
+#     print("student is not allowed to sit in the exam")
+# print(c)
+
